@@ -29,6 +29,6 @@ const newDriversPre=['Arnold',...drivers];
 }
 
 function removeLastDriver(){
-  const removeDriver =drivers.slice(0,(drivers.length()-2));
+  const removeDriver =drivers.slice(0,(drivers.length-2));
   return removeDriver;
 }
